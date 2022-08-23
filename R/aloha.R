@@ -23,6 +23,6 @@ say_aloha <- function(name, color) {
   } else if (color == "white")
     cat(crayon::bgWhite(message))
   else {
-    print("Please enter green, blue, pink for colors" )
+    print("Please enter green, blue, white for colors" )
   }
 }
